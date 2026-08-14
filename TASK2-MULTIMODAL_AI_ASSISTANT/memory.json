@@ -1,0 +1,38 @@
+[
+    {
+        "timestamp": "2026-06-25T18:38:29.853288",
+        "query": "hi",
+        "image_filename": null,
+        "image_evidence": null,
+        "ai_reply": "Query too short. Please provide more details for accurate analysis.",
+        "confidence": 0.4,
+        "validation": "Ambiguity handling protocol activated"
+    },
+    {
+        "timestamp": "2026-06-25T18:39:27.257405",
+        "query": "what is flask framework?",
+        "image_filename": null,
+        "image_evidence": null,
+        "ai_reply": "Previous context: hi. Processing text query: 'what is flask framework?'. Analyzing contextual patterns for intelligent response generation.",
+        "confidence": 0.75,
+        "validation": "Text-based contextual reasoning applied"
+    },
+    {
+        "timestamp": "2026-06-25T18:40:30.590475",
+        "query": "",
+        "image_filename": "IMG_20241215_233837.jpg",
+        "image_evidence": "Image Evidence: Filename IMG_20241215_233837.jpg, Format JPEG, Dimensions 3456x4608, Color Mode RGB",
+        "ai_reply": "Previous context: hi; what is flask framework?. Image analysis complete: Image Evidence: Filename IMG_20241215_233837.jpg, Format JPEG, Dimensions 3456x4608, Color Mode RGB. Please specify your question about this visual content for detailed reasoning.",
+        "confidence": 0.85,
+        "validation": "Image-only evidence extracted successfully"
+    },
+    {
+        "timestamp": "2026-06-25T18:41:54.587244",
+        "query": "describe the main objects in this image",
+        "image_filename": "IMG_20241215_233837.jpg",
+        "image_evidence": "Image Evidence: Filename IMG_20241215_233837.jpg, Format JPEG, Dimensions 3456x4608, Color Mode RGB",
+        "ai_reply": "Previous context: what is flask framework?. Based on image analysis: Image Evidence: Filename IMG_20241215_233837.jpg, Format JPEG, Dimensions 3456x4608, Color Mode RGB. Regarding your query 'describe the main objects in this image', the visual data provides relevant context for intelligent reasoning.",
+        "confidence": 0.92,
+        "validation": "Evidence-based multi-modal response generated"
+    }
+]
