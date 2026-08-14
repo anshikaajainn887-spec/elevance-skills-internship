@@ -1,0 +1,59 @@
+# Dynamic Knowledge Base Chatbot
+
+## Project Description
+This project implements a chatbot with a dynamically expandable knowledge base. The chatbot can update its knowledge by reading new text files and provide responses based on the latest information available.
+
+## Features
+- Dynamic knowledge base update
+- Text file based knowledge storage
+- Automatic information integration
+- Simple chatbot interface
+- Easy to use and maintain
+
+## Technologies Used
+- Python
+- JSON
+- VS Code
+
+## Project Structure
+
+Dynamic Chatbot/
+│
+├── knowledge/
+│   ├── data1.txt
+│   └── data2.txt
+│
+├── chatbot.py
+├── update_db.py
+├── knowledge_db.json
+├── requirements.txt
+└── README.md
+
+## How to Run
+
+### Step 1: Update Knowledge Base
+
+python update_db.py
+
+### Step 2: Run Chatbot
+
+python chatbot.py
+
+## Example
+
+You: artificial intelligence
+
+Bot: Artificial Intelligence is a field of computer science.
+
+You: chatgpt
+
+Bot: Chatgpt is an AI assistant.
+
+## Outcome
+
+The chatbot successfully updates its knowledge base whenever new information is added to the knowledge folder. This demonstrates dynamic expansion of the chatbot's knowledge without modifying the chatbot code.
+
+## Author
+
+Anshika Jain
+Data Science Internship Project
